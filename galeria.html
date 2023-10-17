@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
     <link rel="stylesheet" href="./style/main.css">
+    <script src="skrypty/main.js"></script>
 </head>
 
 <body>
@@ -14,15 +15,15 @@
         <h2>Galeria miejsc ciekawych</h2>
     </header>
     <main>
-        <img src="./images/lanzarotte.jpg" alt="galeria">
+        <img src="./images/lanzarotte.jpg" alt="galeria" id="image-container">
     </main>
     <section class="sectionLeft">
         <h3>Przeglądaj zdjęcia</h3>
-        <img src="./images/lanzarotte.jpg" alt="lanzarotte">
-        <img src="./images/pekin.jpg" alt="pekin">
-        <img src="./images/serengeti.jpg" alt="serengeti">
-        <img src="./images/wenecja.jpg" alt="wenecja">
-        <img src="./images/tajlandia.jpg" alt="tajlandia">
+        <img src="./images/lanzarotte.jpg" alt="lanzarotte" onclick="displayImage(this)">
+        <img src="./images/pekin.jpg" alt="pekin" onclick="displayImage(this)">
+        <img src="./images/serengeti.jpg" alt="serengeti" onclick="displayImage(this)">
+        <img src="./images/wenecja.jpg" alt="wenecja" onclick="displayImage(this)">
+        <img src="./images/tajlandia.jpg" alt="tajlandia" onclick="displayImage(this)">
     </section>
     <section class="sectionRight">
         <h3>Obrazy w naszej galerii</h3>
@@ -38,7 +39,7 @@
                 <td>1</td>
             </tr>
         </table>
-        <p>Polub nas</p><img src="./images/icon-off.png">
+        <div><p>Polub nas</p><img src="./images/icon-off.png" onclick="swapHeart(this)"></div>
         <a href="https://pixabay.com/" target="_blank">Odkryj więcej zdjęć</a>
     </section>
     <footer>

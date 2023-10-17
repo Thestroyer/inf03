@@ -19,26 +19,35 @@ main{
     padding: 50px;
     text-align: center;
 }
-.left{
+.sectionLeft{
     background-color: rgb(70, 130, 180);
     color: #FFF;
     height: 300px;
     width: 80%;
+    float: left;
 }
-.right{
+.sectionRight{
     background-color: rgb(70, 130, 180);
     color: #FFF;
     height: 300px;
     width: 20%;
+    float: left;
+}
+.sectionRight img{
+    height: 50px;
+    width: 50px;
 }
 main > img{
     padding: 3px;
     border: 1px dashed #00F;
     border-radius: 10px;
 }
-.left > img{
+.sectionLeft > img{
     height: 40%;
 }
-.left > img:hover{
+.sectionLeft > img:hover{
     border: 1px solid #FFF;
+}
+footer{
+    clear: both;
 }
