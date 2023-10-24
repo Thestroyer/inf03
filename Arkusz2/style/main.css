@@ -1,0 +1,33 @@
+body{
+    font-family: Georgia;
+}
+
+header, footer{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+.left{
+    background-color: #d7ccc8;
+    width: 35%;
+    height: 550px;
+}
+
+.right{
+    background-color: #d7ccc8;
+    width: 65%;
+    height: 550px;
+}
+li, a{
+    color: indigo;
+}
+img{
+    height: 240px;
+    margin: 6px;
+    border-radius: 20px;
+}
+img:hover{
+    box-shadow: 0 0 10px 2px indigo;
+}
+
