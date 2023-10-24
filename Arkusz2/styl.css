@@ -1,33 +1,51 @@
-body{
+body {
     font-family: Georgia;
 }
 
-header, footer{
+header,
+footer {
     background-color: indigo;
     color: white;
     text-align: center;
     padding: 7px;
 }
-.left{
+
+.lewy {
     background-color: #d7ccc8;
     width: 35%;
     height: 550px;
+    float: left;
 }
 
-.right{
+.prawy {
     background-color: #d7ccc8;
     width: 65%;
     height: 550px;
+    float: left;
 }
-li, a{
+
+li,
+a {
     color: indigo;
 }
-img{
+
+img {
     height: 240px;
     margin: 6px;
     border-radius: 20px;
 }
-img:hover{
+
+img:hover {
     box-shadow: 0 0 10px 2px indigo;
 }
 
+footer {
+    clear: both;
+}
+
+.blok-ciasteczek {
+    background-color: #A1887F;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
