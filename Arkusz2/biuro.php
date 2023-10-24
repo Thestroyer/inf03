@@ -27,13 +27,13 @@
         <section class='lewy'>
             <h2>Nasze wycieczki</h2>
             <ol>
-                <li>1. autokarowe</li>
+                <li>autokarowe</li>
                 <ul>
                     <li>po Polsce</li>
                     <li>do Niemiec i Czech</li>
                 </ul>
 
-                <li>1. samolotem</li>
+                <li>samolotem</li>
                 <ul>
                     <li>Grecja</li>
                     <li>Barcelona</li>
