@@ -4,17 +4,23 @@ body{
 
 header, footer{
     background-color: indigo;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 7px;
 }
-.left{
+.blok-ciasteczek{
+    background-color: #a1887f;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+.lewy{
     background-color: #d7ccc8;
     width: 35%;
     height: 550px;
 }
 
-.right{
+.prawy{
     background-color: #d7ccc8;
     width: 65%;
     height: 550px;
