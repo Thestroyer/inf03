@@ -1,3 +1,13 @@
+<?php
+    if(!isset($_COOKIE['ciastko'])){
+        setcookie('ciastko', 1);
+        echo '<p>Witaj! Nasza strona używa ciasteczek</p>';
+    }
+    else{
+        echo '<p>Witaj ponownie na naszej stronie</p>';
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
