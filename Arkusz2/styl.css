@@ -5,9 +5,16 @@ body {
 header,
 footer {
     background-color: indigo;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 7px;
+}
+
+.blok-ciasteczek {
+    background-color: #a1887f;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
 }
 
 .lewy {
